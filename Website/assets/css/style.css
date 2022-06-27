@@ -12,6 +12,17 @@
   scroll-behavior: smooth;
 }
 
+
+.container .content5 {
+  position: absolute; /* Position the background text */
+  top:0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -232,7 +243,8 @@ section {
   position: absolute;
   left: 14px;
   top: calc(100% + 30px);
-  margin: 0;
+  margin: 5px;
+  
   padding: 10px 0;
   z-index: 99;
   opacity: 0;
