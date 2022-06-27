@@ -87,6 +87,13 @@ section {
   margin-top: 82px;
   color: #fff;
 }
+.breadcrumbss {
+  padding: 15px 0;
+  background: #1d3764;
+  min-height: 40px;
+  margin-top: 82px;
+  color: #fff;
+}
 @media (max-width: 992px) {
   .breadcrumbs {
     margin-top: 57px;
